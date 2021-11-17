@@ -1,0 +1,149 @@
+body {
+    width: 90%;
+    height: auto;
+    margin: auto;
+    border: solid 1px white;
+}
+body {
+    font-family: 'ropoto';font-size: 20px;
+}
+
+
+
+
+#menu {
+width: 100%;
+height: 50%;
+border: 1px solid white;
+background-color: lightyellow;
+   
+}
+#menu a {
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: blue;
+  }
+
+  #menu ul li {
+    display: inline;
+    padding: 15px;
+    
+}
+#menu li :nth-child(1) {
+    margin-left: 1%;
+    text-align: left;
+    text-transform: uppercase;
+   
+  }
+
+#menu li:nth-child(2) {
+    margin-right: 30%;
+    text-align: right ;
+    text-transform: uppercase;
+   
+
+  }
+li a {
+    display: inline;
+    
+    text-decoration: none;
+    
+  } 
+  
+#menu li a:hover {
+    color: white;
+    background-color: #db7093;
+    font-weight: bold;
+  }   
+#banner {
+position: relative;
+width: 100%;
+height:auto;
+
+}  
+
+
+    
+
+#banner img {
+    width: 100%;
+    height: 100%;
+
+}
+
+#main-content  {
+    background-color: #efefef;
+    position: relative;
+    
+}      
+#main-content > div {
+    text-align:center;
+    display: flex;
+}
+#main-content  h3 {
+    margin-top: -0.3%;
+    padding-left: 4%;
+    padding-top: 3%;
+    font-size: 25px;
+    
+}  
+#main-content img {
+    padding-left: 4%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    width: 70%;
+    height: auto;
+   
+}
+
+
+
+   
+    
+
+
+#main-content  p {
+    padding-left: 4%;
+    
+    
+
+
+    
+}
+
+#main-content  h1 {
+    padding-left: 4%;
+    padding-top: 5%;
+}
+
+img.cangiua {display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#main-content p.cangiua { 
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+}
+
+
+
+
+#footer {
+    background-color: #f5f4f0;
+    padding-top: 10px;
+    
+    display: inline;
+    margin: 1px;
+    
+
+
+
+}
+
+  
+  
+
+  
